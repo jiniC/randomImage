@@ -3,12 +3,12 @@ import { MainScene } from "./scenes/mainScene";
 
 // main game configuration
 const config: GameConfig = {
-  width: 800,
-  height: 600,
-  type: Phaser.AUTO,
-  parent: "resultBox",
-  scene: MainScene,
-  title: "",
+	width: 800,
+	height: 600,
+	type: Phaser.AUTO,
+	parent: 'resultBox',
+	scene: MainScene,
+	title: '',
 };
 
 // game class
